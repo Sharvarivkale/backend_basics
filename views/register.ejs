@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+</head>
+<body>
+  
+
+<form class="max-w-sm mx-auto" action="/user/register_data" method="post">
+  <div class="mb-5">
+    <label for="email-alternative" class="block mb-2.5 text-sm font-medium text-heading">Your email</label>
+    <input type="email" name="email" id="email-alternative" class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow placeholder:text-body" placeholder="name@flowbite.com" required />
+  </div>
+  <div class="mb-5">
+    <label for="password-alternative" class="block mb-2.5 text-sm font-medium text-heading">Your password</label>
+    <input type="password" name="password" id="password-alternative" class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow placeholder:text-body" placeholder="••••••••" required />
+  </div>
+  <div class="mb-5">
+  <label for="username" class="block mb-2.5 text-sm font-medium text-heading">
+    Your username
+  </label>
+  <input
+    type="text"
+    id="username"
+    name="username"
+    class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow placeholder:text-body"
+    placeholder="Enter your username"
+    required
+  />
+</div>
+
+
+  </div>
+  <button type="submit" class="text-black bg-brand box-border border border-black hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">Submit</button>
+</form>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+</body>
+</html>
